@@ -1,8 +1,8 @@
 # Hamza Gouda
 
-**Linux systems & developer tooling**
+**Software engineering · Python tooling and data pipelines**
 
-I’m a CS student at MSA. I build Linux tools for hardware diagnostics, desktop control, and automation.
+I’m a CS student at MSA. I build and ship Python tools for Linux diagnostics and automation, and develop pipelines for model evaluation and retrieval.
 
 ## Start here
 
@@ -11,14 +11,14 @@ I’m a CS student at MSA. I build Linux tools for hardware diagnostics, desktop
 
 More public work: [Bordeaux GNOME](https://github.com/hamza-gouda1/bordeaux-gnome) · [Terminal3 ADK](https://github.com/hamza-gouda1/terminal3-adk-deployment)
 
-## Also building (private)
+## ML and pipeline engineering
 
-- **LexSuprema**: an Egyptian-law legal AI that answers in Arabic. A five-stage pipeline: structured fact extraction, a deterministic rules engine for procedural law (prescription periods, monetary thresholds), retrieval over a Neo4j graph of legislation, an opinion drafter and a strategy generator. Every cited article is checked against the retrieved sources to catch hallucinated citations.
-- **BirdSeye**: automated essay grading against a 7-criterion rubric, with a human review screen and an append-only audit trail. Fine-tuned small language models (LoRA, SFT and KTO) with evaluation and verification rounds.
+- **BirdSeye (private, in progress)** — I build the model evaluation pipeline for essay review, with rubric-based scoring, holdout controls, and an instructor review workflow with an audit trail.
+- **LexSuprema (private, in progress)** — I build an Arabic legal research pipeline that combines structured fact extraction, deterministic rules, Neo4j retrieval, and checks on generated citations against the source legislation.
 
 ## Tools I use
 
-Python, Rust, TypeScript, Shell, CSS, GTK 4, GNOME Shell extensions (GJS), Linux kernel drivers, systemd, D-Bus, Neo4j and GraphRAG, LoRA fine-tuning and evaluation of LLMs.
+Python, LLM evaluation, LoRA fine-tuning, Neo4j, GraphRAG, Rust, TypeScript, Shell, GTK 4, systemd, and D-Bus.
 
 ## Contact
 
