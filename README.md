@@ -1,8 +1,8 @@
 # Hamza Gouda
 
-**Software engineering · Python tooling and data pipelines**
+**Software engineering · Python tooling, ML systems, and data pipelines**
 
-I’m a CS student at MSA. I build and ship Python tools for Linux diagnostics and automation, and develop pipelines for model evaluation and retrieval.
+I’m a CS student at MSA. I build Python automation tools and applications for desktop, web, and Android. My ML work includes pipelines for training, inference, and retrieval.
 
 ## Start here
 
@@ -11,14 +11,14 @@ I’m a CS student at MSA. I build and ship Python tools for Linux diagnostics a
 
 More public work: [Bordeaux GNOME](https://github.com/hamza-gouda1/bordeaux-gnome) · [Terminal3 ADK](https://github.com/hamza-gouda1/terminal3-adk-deployment)
 
-## ML and pipeline engineering
+## ML systems and data pipelines
 
-- **BirdSeye (private, in progress)** — I build the model evaluation pipeline for essay review, with rubric-based scoring, holdout controls, and an instructor review workflow with an audit trail.
-- **LexSuprema (private, in progress)** — I build an Arabic legal research pipeline that combines structured fact extraction, deterministic rules, Neo4j retrieval, and checks on generated citations against the source legislation.
+- **BirdSeye (private, in progress)** — I build an essay review system spanning dataset preparation, LoRA fine-tuning, inference, and instructor review. It includes rubric-based scoring, holdout controls, and an audit trail.
+- **LexSuprema (private, in progress)** — I build a pipeline for Arabic legal research. It ingests legislation into Neo4j, combines graph, keyword, and vector retrieval with reranking, and applies procedural rules to structured case facts.
 
 ## Tools I use
 
-Python, LLM evaluation, LoRA fine-tuning, Neo4j, GraphRAG, Rust, TypeScript, Shell, GTK 4, systemd, and D-Bus.
+Python, TypeScript, Rust, Java, SQL, Bash, GTK 4, Next.js, Neo4j, LoRA fine-tuning, systemd, and D-Bus.
 
 ## Contact
 
