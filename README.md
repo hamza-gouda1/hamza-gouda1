@@ -1,25 +1,33 @@
 # Hamza Gouda
 
-**Software engineering · Python tooling, ML systems, and data pipelines**
+Software engineer in Cairo. I build web apps, internal dashboards and AI tools for businesses, with automated tests on every project. Computer Science at MSA University (class of 2029). I work in Arabic and English.
 
-I’m a CS student at MSA. I build Python automation tools and applications for desktop, web, and Android. My ML work includes pipelines for training, inference, and retrieval.
+**Open to freelance work.** [Email me](mailto:hraafat357@gmail.com) at hraafat357@gmail.com.
 
-## Start here
+## What I can build for you
 
-- **TUF Control** — I built a native GTK4 app for ASUS laptop controls and live hardware monitoring. [Latest release](https://github.com/hamza-gouda1/tuf-control/releases/latest) · [2-minute hardware-free quickstart](https://github.com/hamza-gouda1/tuf-control/blob/main/docs/QUICKSTART.md) · [Animated app walkthrough](https://github.com/hamza-gouda1/tuf-control/blob/main/docs/demo/quickstart.gif) · [Dashboard screenshot](https://raw.githubusercontent.com/hamza-gouda1/tuf-control/main/docs/screenshots/dashboard-dark.png)
-- **Realtek Bluetooth/Wi-Fi investigation** — I measured Bluetooth audio stalls across 37,149 captured frames and tested a workaround on one RTL8852CE laptop. [Measurements and experiments](https://github.com/hamza-gouda1/rtl8852ce-bt-coex/blob/main/docs/MEASUREMENTS.md)
+- Catalog and landing sites that turn visitors into WhatsApp leads
+- Staff and task dashboards for schools, clinics and offices
+- Arabic AI assistants that answer from your own documents
+- Small automations: Excel to web forms, scrapers, report scripts
 
-More public work: [Bordeaux GNOME](https://github.com/hamza-gouda1/bordeaux-gnome) · [Terminal3 ADK](https://github.com/hamza-gouda1/terminal3-adk-deployment)
+## Client work (private repositories)
 
-## ML systems and data pipelines
+- **Wholesale catalog and lead system** for a car-care supplier. Arabic RTL catalog, lead capture with a privacy notice and retention rules, daily backups. Node 22, Express 5, SQLite. 207 automated tests.
+- **Operations dashboard** for a school stage head managing 25 teachers in 6 departments. Deadline tracking and AI-drafted reminders sent through Gmail. Next.js 16, Prisma, PostgreSQL, OpenAI API.
+- **Church attendance app** (volunteer, with Kirlos Ashraf). Bilingual Arabic/English, QR check-in, Excel import and export. Next.js, React 19.
 
-- **BirdSeye (private, in progress)** — I build an essay review system spanning dataset preparation, LoRA fine-tuning, inference, and instructor review. It includes rubric-based scoring, holdout controls, and an audit trail.
-- **LexSuprema (private, in progress)** — I build a pipeline for Arabic legal research. It ingests legislation into Neo4j, combines graph, keyword, and vector retrieval with reranking, and applies procedural rules to structured case facts.
+## Open source
 
-## Tools I use
+- **[Asusius](https://github.com/hamza-gouda1/asusius)**: ASUS TUF and ROG laptop control for Linux. A GTK4/Libadwaita app, a CLI, a GNOME Quick Settings toggle and an MCP server for AI agents. [Latest release](https://github.com/hamza-gouda1/asusius/releases/latest) · [2-minute quickstart](https://github.com/hamza-gouda1/asusius/blob/main/docs/QUICKSTART.md) · [Walkthrough](https://github.com/hamza-gouda1/asusius/blob/main/docs/demo/quickstart.gif)
+- **[RTL8852CE Bluetooth fix](https://github.com/hamza-gouda1/rtl8852ce-bt-coex)**: Bluetooth audio on this Realtek card stalled whenever Wi-Fi was busy (488 stalls in 10 minutes, across 37,149 captured packets). I instrumented the rtw89 driver, traced the cause to a firmware coexistence mismatch, and shipped a fix that needs no kernel rebuild. Tested on one laptop so far. [Write-up](https://github.com/hamza-gouda1/rtl8852ce-bt-coex/blob/main/docs/SOLUTION.md) · [Measurements](https://github.com/hamza-gouda1/rtl8852ce-bt-coex/blob/main/docs/MEASUREMENTS.md)
+- **[Bordeaux GNOME](https://github.com/hamza-gouda1/bordeaux-gnome)**: a burgundy theme family for GNOME 46, from the top bar to the boot screen, with contrast checked in CI.
 
-Python, TypeScript, Rust, Java, SQL, Bash, GTK 4, Next.js, Neo4j, LoRA fine-tuning, systemd, and D-Bus.
+## Research and ML (private, in progress)
 
-## Contact
+- **BirdSeye**: LLM essay scoring for a university writing course. LoRA fine-tuning of Qwen3-4B, a pre-registered evaluation on 225 held-out essays, and a review app where every human grade keeps its full provenance.
+- **Lex Suprema**: Arabic legal research over Egyptian legislation. A Neo4j graph with vector and keyword retrieval, reranking, and a validator that rejects citations to articles that do not exist.
 
-For software engineering roles or collaborations, [email me](mailto:hraafat357@gmail.com).
+## Tools
+
+Python · TypeScript · Next.js · Node.js · PostgreSQL · SQLite · LLM APIs · Neo4j · GTK 4 · systemd · Bash · Java (Android)
