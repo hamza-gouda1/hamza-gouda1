@@ -2,7 +2,7 @@
 
 Software engineer in Cairo. I build web apps, internal dashboards and AI tools for businesses, with automated tests on every project. Computer Science at MSA University (class of 2029). I work in Arabic and English.
 
-**Open to freelance work.** [Email me](mailto:hraafat357@gmail.com) at hraafat357@gmail.com.
+**Open to freelance work and remote contract roles.** [Email me](mailto:hraafat357@gmail.com) at hraafat357@gmail.com · [LinkedIn](https://www.linkedin.com/in/hamzagouda/)
 
 ## What I can build for you
 
