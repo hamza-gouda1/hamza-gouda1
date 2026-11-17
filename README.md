@@ -11,17 +11,17 @@ Software engineer in Cairo. I build web apps, internal dashboards and AI tools f
 - Arabic AI assistants that answer from your own documents
 - Small automations: Excel to web forms, scrapers, report scripts
 
-## Client work (private repositories)
-
-- **Wholesale catalog and lead system** for a car-care supplier. Arabic RTL catalog, lead capture with a privacy notice and retention rules, daily backups. Node 22, Express 5, SQLite. 207 automated tests.
-- **Operations dashboard** for a school stage head managing 25 teachers in 6 departments. Deadline tracking and AI-drafted reminders sent through Gmail. Next.js 16, Prisma, PostgreSQL, OpenAI API.
-- **Church attendance app** (volunteer, with Kirlos Ashraf). Bilingual Arabic/English, QR check-in, Excel import and export. Next.js, React 19.
-
 ## Open source
 
 - **[Asusius](https://github.com/hamza-gouda1/asusius)**: ASUS TUF and ROG laptop control for Linux. A GTK4/Libadwaita app, a CLI, a GNOME Quick Settings toggle and an MCP server for AI agents. [Latest release](https://github.com/hamza-gouda1/asusius/releases/latest) · [2-minute quickstart](https://github.com/hamza-gouda1/asusius/blob/main/docs/QUICKSTART.md) · [Walkthrough](https://github.com/hamza-gouda1/asusius/blob/main/docs/demo/quickstart.gif)
 - **[RTL8852CE Bluetooth fix](https://github.com/hamza-gouda1/rtl8852ce-bt-coex)**: Bluetooth audio on this Realtek card stalled whenever Wi-Fi was busy (488 stalls in 10 minutes, across 37,149 captured packets). I instrumented the rtw89 driver, traced the cause to a firmware coexistence mismatch, and shipped a fix that needs no kernel rebuild. Tested on one laptop so far. [Write-up](https://github.com/hamza-gouda1/rtl8852ce-bt-coex/blob/main/docs/SOLUTION.md) · [Measurements](https://github.com/hamza-gouda1/rtl8852ce-bt-coex/blob/main/docs/MEASUREMENTS.md)
 - **[Bordeaux GNOME](https://github.com/hamza-gouda1/bordeaux-gnome)**: a burgundy theme family for GNOME 46, from the top bar to the boot screen, with contrast checked in CI.
+
+## Client work (private repositories)
+
+- **Wholesale catalog and lead system** for a car-care supplier. Arabic RTL catalog, lead capture with a privacy notice and retention rules, daily backups. Node 22, Express 5, SQLite. 207 automated tests.
+- **Operations dashboard** for a school stage head managing 25 teachers in 6 departments. Deadline tracking and AI-drafted reminders sent through Gmail. Next.js 16, Prisma, PostgreSQL, OpenAI API.
+- **Church attendance app** (volunteer, with Kirlos Ashraf). Bilingual Arabic/English, QR check-in, Excel import and export. Next.js, React 19.
 
 ## Research and ML (private, in progress)
 

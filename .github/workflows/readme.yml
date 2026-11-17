@@ -1,0 +1,17 @@
+name: Profile README
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  markdown:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - name: Validate Markdown structure and references
+        run: npx --yes markdownlint-cli@0.45.0 --disable MD013 MD034 -- README.md
